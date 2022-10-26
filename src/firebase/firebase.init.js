@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "b610-lerning-platform",
   storageBucket: "b610-lerning-platform.appspot.com",
   messagingSenderId: "1002275918345",
-  appId: "1:1002275918345:web:478ee121dd85d307fd5ed8"
+  appId: "1:1002275918345:web:26c278d2983dd965fd5ed8"
 };
 
 // Initialize Firebase

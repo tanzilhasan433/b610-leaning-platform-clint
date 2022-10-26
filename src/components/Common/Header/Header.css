@@ -1,0 +1,13 @@
+.header a{
+    text-emphasis: none;
+    margin-right: 15px;
+    padding: 2px 5px;
+    text-decoration:none;
+}
+.header a:hover{
+    background-color: lightblue;
+}
+
+Link{
+    color: wheat;
+}
