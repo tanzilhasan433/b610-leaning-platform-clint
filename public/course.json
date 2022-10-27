@@ -1,0 +1,44 @@
+[
+    {   "itemid": 2323421,
+        "title": "Computer Networking:",
+        "des":  "Learning Computer Networking helps you to enhance your problem-solving and logical skills. You can easily solve real-life networking problems.",
+        "img":  "https://5.imimg.com/data5/SV/QL/MY-27749530/computer-networking-book-500x500.jpg",
+        "price": 350.00 ,
+        "details":  "Why Learn Computer Networking Learning Computer Networking helps you to enhance your problem-solving and logical skills. You can easily solve real-life networking problems and develop your investigating skills by putting efforts to solve tough networking problems. There are tremendous opportunities available worldwide for Computer Networking professionals. Therefore learning computer networking is beneficial in all aspects."
+    },
+    {     "itemid": 24523421,
+        "title": "Artificial Intelligence",
+        "des":  "Yes and no. An unrelated A.I. is indeed based on a book. Artificial Intelligence (A.I.) is a science fiction and drama movie from 2001.",
+        "img":  "https://hackr.io/blog/media/artificial-intelligence-basics-a-non-technical-introduction-min-2.png",
+        "price": 375.00 ,
+        "details":  "Is AI based on a book Yes and no. An unrelated A.I. is indeed based on a book. Artificial Intelligence  is a science fiction and drama movie from 2001 that was not just written but also directed by the legendary Steven Spielberg. It was based on Ian Watson's screen story which in turn was based on a short story by Brian Aldiss from 1969 called Supertoys Last All Summer Long.The artificial intelligence being spoken about in this article on the other hand is a term coined by Stanford computer science professor John McCarthy."
+    },
+    {    "itemid": 2358623421,
+        "title": "Cryptography",
+        "des":  " Cryptography is harder than it looks, primarily because it looks like math. Both algorithms and protocols can be precisely defined and analyzed.",
+        "img":  "https://5.imimg.com/data5/SV/QL/MY-27749530/computer-networking-book-500x500.jpg",
+        "price": 400.00 ,
+        "details":  "Cryptography is harder than it looks, primarily because it looks like math. Both algorithms and protocols can be precisely defined and analyzed. This isn't easy, and there's a lot of insecure crypto out there, but we cryptographers have gotten pretty good at getting this part right "
+    },
+    {    "itemid": 23675421,
+        "title": "Algorithm",
+        "des":  "Algorithms is a book written by Robert Sedgewick and Kevin Wayne. This book covers all the most important computer algorithms currently in use.",
+        "img":  "https://realtoughcandy.com/wp-content/uploads/2020/12/law-of-algorithms-best-algorithms-books.jpg",
+        "price": 380.00  ,
+        "details": " What is algorithm book.   Algorithms is a book written by Robert Sedgewick and Kevin Wayne. This book covers all the most important computer algorithms currently in use. The book teaches you searching, sorting, graph processing, and string processing. This tutorial book includes algorithms every programmer should know."
+    },
+    {    "itemid": 267543421,
+        "title": "System Analysis",
+        "des":  " System analysis is conducted for the purpose of studying a system or its parts in order to identify its objectives.",
+        "img":  "https://media.wiley.com/product_data/coverImage300/80/11198037/1119803780.jpg",
+        "price": 365.00  ,
+        "details":  " What are objectives of system analysis. System analysis is conducted for the purpose of studying a system or its parts in order to identify its objectives. It is a problem solving technique that improves the system and ensures that all the components of the system work efficiently to accomplish their purpose. "
+    }, 
+    {    "itemid": 26732421,
+        "title": "Compiler Design",
+        "des":  "If you really want to understand compiler construction, you will learn that it is not easy. It is a college course and that only covers the basics.",
+        "img":  "https://www.ikbooks.com/uploads/BookImages/ikbooks-size200/9789385909658.jpg",
+        "price": 360.00  ,
+        "details": " Is compiler design a difficult subject.  If you really want to understand compiler construction, you will learn that it is not easy. It is a college course and that only covers the basics. People still get their PhDs by making small advances in doing it. However, parts of it are easy.q3 "
+    }
+]

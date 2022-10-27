@@ -1,12 +1,22 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Home = () => {
+ const [data, setData] = useState([])
+
+ useEffect(()=>{
+   const res = axios.get('http://localhost:8800/courses')
+   console.log(res.data);
+   setData(res.data)
+ }, [])
     
     return (
         <div className=''>    
            <h2>This is home</h2>
+           {data.length}
              <Card style={{ width: '18rem' }}>
                  <Card.Img variant="top" src="holder.js/100px180" />
                    <Card.Body>
