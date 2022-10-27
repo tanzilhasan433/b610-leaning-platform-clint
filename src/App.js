@@ -11,6 +11,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Fqa from './components/Pages/Fqa/Fqa';
 import Pages from './components/Pages/Home/Pages';
+import Details from './components/Details/Details';
 
 
 // import { getAuth, GoogleAuthProvider } from "firebase/auth";
@@ -28,6 +29,7 @@ function App() {
       <Route path="/" element={<Pages />} />
       <Route path="blog" element={<Blog />} />
       <Route path="courses" element={<Courses />} />
+      <Route path="courses/:id" element={<Details />} />
       <Route path="about" element={<About />} />
       <Route path="fqa" element={<Fqa />} />
       <Route path="login" element={<Login />} />

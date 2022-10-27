@@ -4,7 +4,10 @@ import Form from 'react-bootstrap/Form';
 
 function Login() {
   return (
-    <Form className='container'>
+    <div>
+      <h2 className='text-center'>Please Login</h2>
+      <br />
+      <Form className='container w-50 mx-auto'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -24,6 +27,8 @@ function Login() {
         Submit
       </Button>
     </Form>
+    </div>
+    
   );
 }
 

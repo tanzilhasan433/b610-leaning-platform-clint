@@ -23,13 +23,12 @@ const Courses = () => {
 
 
     return (
-        <div className=''>    
+        <div className='d-flex'>    
            <div className='part'>
            {
             data.map((item) => {
                 return(
                     <Card className='m-20' style={{ width: '22rem' }} key={item._id}>
-                       {  console.log(item)}
                        <img className='' src={item.img} alt="" srcSet="" />
                        <Card.Body>
                          <Card.Title>{item.title}</Card.Title>
@@ -37,11 +36,14 @@ const Courses = () => {
                                {item.des}
                             </Card.Text>
                             
-                            <Link to={`home/${item._id}`} variant="primary">Go To</Link>
+                            <Link to={`${item._id}`} variant="primary">Go To</Link>
                        </Card.Body>
                  </Card>
                 )
             })}
+           </div>
+           <div>
+            <h3>This is button pages</h3>
            </div>
         </div>
     );
