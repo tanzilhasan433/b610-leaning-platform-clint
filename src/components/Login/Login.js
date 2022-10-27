@@ -1,31 +1,10 @@
-// import { getAuth } from 'firebase/auth';
-// import React from 'react';
-// import app from '../../firebase/firebase.init';
-
-
-// const auth = getAuth(app);
-
-// const Login = () => {
-
-//     return (
-//         <div className='App'>
-//             <form>
-//                 <input type="email" name="" id=" " placeholder='Email' />
-//                 <br />
-//                 <input type="email" name="" id=" " placeholder='Password' />
-//             </form>
-//         </div>
-//     );
-// };
-
-// export default Login;
-
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 function Login() {
   return (
-    <Form>
+    <Form className='container'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
