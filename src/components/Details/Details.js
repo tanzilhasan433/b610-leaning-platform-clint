@@ -47,7 +47,7 @@ const Details = () => {
     return (
         <div className='d-flex'>
             <Card className='m-20' style={{ width: '500px' }} key={data._id}>
-                       <img className='' src={data.img} alt="" srcSet="" />
+                       <img className='h-50 w-50' src={data.img} alt="" srcSet="" />
                        <Card.Body>
                          <Card.Title>{data.title}</Card.Title>
                             <Card.Text>
@@ -57,12 +57,8 @@ const Details = () => {
                        </Card.Body>
                  </Card>
             <div className=''>
-                <h1>Suggested Course</h1>
-                <button> C</button>
-                <button> C++</button>
-                <button> Java</button>
-                <button> Python</button>
-                <button> C#</button>
+                <h1 className='text-center bg-light'>Computer Science Engineering</h1>
+                <p>Computer Science & Engineering - CSE is a most popular subject of World. Day by day it's the most important part of human life. </p>
 
             </div>
         </div>
