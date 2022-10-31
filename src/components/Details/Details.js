@@ -58,7 +58,7 @@ const Details = () => {
                  </Card>
             <div className=''>
                 <h1 className='text-center bg-light'>Computer Science Engineering</h1>
-                <p>Computer Science & Engineering - CSE is a most popular subject of World. Day by day it's the most important part of human life. </p>
+                <p>Computer Science & Engineering - CSE is a most popular subject of World. Day by day it's the most important part of human life.  </p>
 
             </div>
         </div>
